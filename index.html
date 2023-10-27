@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodfish</title>
+    <link rel="stylesheet" href="foodfish.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width=1400px)" href="phone.css"> -->
+</head>
+<div>
+    <div class="header">
+        <div class="navbar">
+            <div class="profileimg">
+                <img src="joker.jpg" alt="profile photo" width="90px" height="90px">
+            </div>
+            <nav>
+                <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our_services">Services</a></li>
+                <li><a href="#clients">Sponsors</a></li>
+                <li><a href="#contact_us">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>   <!---navbar end-->
+        <div id="home">
+        <div class="content">
+            <h1>Welcome to Foodfish</h1>
+            <p>Plan your meal, we arrange it</p>
+            <div class="orderbtn">
+                <button><a href="#contact_us" style="color:black;text-decoration: none;">Order Now</a></button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="our_services">
+    <div class="services">
+        <h1 id="head" class="serv_head">Our Services</h1>
+        <div class="servboxes">
+        <div class="box" id="box_1">
+            <img src="https://parspng.com/wp-content/uploads/2022/05/pizzapng.parspng.com-6-600x730.png" alt="delivery boy" width="200px">
+            <h1 class="serv_head">Food ordering</h1>
+            <p>Snacks, cold drinks are avialable. Place your order and we will work on it quickly</p>
+        </div>
+        <div class="box" id="box_2">
+            <img src="https://www.pngall.com/wp-content/uploads/8/Restaurant-Food-PNG.png" alt="delivery boy" width="330px">
+            <h1 class="serv_head">Fresh & hygienic</h1>
+            <p>100% quality & hygiene assurance. you will receive the food, fresh and will be handled hygeinically </p>
+        </div>
+        <div class="box" id="box_3">
+            <img src="https://pngfreepic.com/wp-content/uploads/2022/04/Food-Delivery-boy-Scooter-Free-Vector-clipart-png.png?v=1663434762" alt="delivery boy" width="230px">
+            <h1 class="serv_head">Fast delivery</h1>
+            <p>We will get your food on your doorsteps within 15 minutes</p>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="clients">
+    <div class="ourclients">
+        <h1 id="partners">Partner With</h1>
+        <div class="client_logo_1">
+            <img src="redbull.png" alt="red-bull" width="250px" height="150px">
+            <img src="pizzahut.png" alt="pizza-hut" width="150px" height="150px">
+            <img src="dominos.png" alt="dominos" width="150px" height="150px">
+            <img src="https://i.pinimg.com/originals/f5/c1/ed/f5c1ed809356b5619618c8a634fe2d96.png" alt="monster" width="250px" height="230px">
+        </div>
+        <div class="client_logo_2">
+            <img src="https://www.freepnglogos.com/uploads/kfc-png-logo/camera-kfc-png-logo-0.png" alt="kfc" width="150px" height="150px">
+            <img src="https://logos-world.net/wp-content/uploads/2022/07/Logo-Subway.png" alt="subway" width="250px" height="180px">
+            <img src="https://www.freeiconspng.com/thumbs/coca-cola-logo-png/coca-cola-logo-png-3.png" alt="cola" width="250px" height="250px">
+        </div>
+    </div>
+</div>
+    <div id="contact_us">
+        <h1>Contact Us</h1>
+        <div class="contact_box">
+            <form >
+            <div class="form_group">
+            <label class="form_head" for="name">Name:</label>
+            <input type="Name" id="Name" class="text_box" placeholder="--Enter your name--">
+            </div>
+            <div class="form_group">
+            <label class="form_head" for="email">Email id:</label>
+            <input type="email" id="email" class="text_box" placeholder="--Enter your email id--">
+            </div>
+            <div class="form_group">
+            <label class="form_head" for="mobile">Cell:</label>
+            <input type="number" id="mobile" class="text_box" placeholder="--Enter your mobile No.--">
+            </div>
+            <div class="form_group">
+            <label class="form_head" for="order">Place your order:</label>
+            <textarea name="order_box" id="order" cols="30" rows="2"></textarea>  
+            <div class="form_group">
+            <label class="form_head" for="address">Address:</label>
+            <textarea name="address_box" id="address" cols="30" rows="2"></textarea>  
+            <div class="submitbutton">
+            <button type="submit" id="submit_btn">Submit</button>
+            </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+    <!-- <script type="text/javascript">
+        function sendMessage(event) {
+            event.preventDefault();
+            let name= document.getElementById("Name").value;
+            let email= document.getElementById("Email").value;
+            let mobile= document.getElementById("Mobile").value;
+            let order= document.getElementById("order").value;
+            let address=document.getElementById("address").value
+
+            localStorage.setItem('Name: ', name);
+            localStorage.setItem('Email: ', email);
+            localStorage.setItem('cell: ', mobile);
+            localStorage.setItem('order ', order);
+            localStorage.setItem('Adress:', address);
+        }
+    </script>  -->
+</body>
+</html>

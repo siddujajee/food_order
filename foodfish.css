@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior:smooth;
+}
+.header{
+    background-image: url(foodfish.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 25px;
+}
+.profileimg img{
+    border-radius: 50%;
+    text-align: center;
+    /* padding-bottom: 8px; */
+}
+.navbar{
+    position:sticky;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 80px;
+    width: 98.3%;
+    display: flex;
+    padding: 15px;
+    padding-bottom: 25px;
+}
+.navbar li{
+    display: inline;
+    margin: 15px;
+    list-style-type: none; 
+}
+.navbar  li a{
+    display: inline-block;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 8px;
+    color: rgb(255, 250, 250);
+}
+.navbar  li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 30px;
+    transform: scale(1.08);
+    transition-duration: 0.1s;
+}
+.profileimg:hover{
+    transform: scale(1.18);
+    transition-duration: 0.8s;
+}
+.content{
+    margin-top: 95px;
+}
+
+.content h1{
+    font-size: 84px;
+    padding-top: 108px;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+}
+.content p{
+    font-size: 34px;
+    font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+    padding: 50px 150px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 3rem;
+}
+.orderbtn{
+    text-align: center;
+}
+.orderbtn button{
+    border-radius: 25px;
+    border-style:initial;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    background-color: brown;
+}
+.orderbtn button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+    background-color: skyblue;
+    color:darkblue
+}
+
+.servboxes{
+display: flex;
+align-items: center;
+text-align: center;
+}
+.servboxes #box_3{
+    padding:25px 50px ;
+}
+.servboxes #box_2{
+    padding:25px 50px ;
+}
+.servboxes .box{
+    border: solid red 5px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 22px;
+    line-height: 2rem;
+    background-color: rgb(228, 223, 223);
+}
+.servboxes .box:hover{
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+}
+.box h1{
+    line-height: 5rem;
+    font-size:47px;
+}
+.header{
+    height: 860px;
+}
+.services #head{
+    padding: 80px 0px 20px 0px;
+    font-size: 60px;
+    font-family: system-ui;
+    font-weight: 900;
+    text-align: center;
+}
+.serv_head{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.client_logo_1, .client_logo_2{
+    display: flex;
+    column-gap: 120px;
+    justify-content: center;
+    padding: 15px;
+}
+.client_logo_1 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.client_logo_2 img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.ourclients #partners{
+    text-align: center;
+    font-size: 60px;
+    font-family: system-ui;
+    padding: 45px;
+    font-weight: 900;
+}
+.ourclients{
+    height: 50rem;
+}
+.ourclients::before{
+    content: "";
+    position: absolute;
+    background: url(https://img.rawpixel.com/private/static/images/website/2022-05/pf-s111-mn-cauliflower-broccoli-carrot-apple-puree-02_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=127afe6f3eb0d0068e63d818dae69621);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+.contact_box input, .contact_box textarea{
+    width: 99.83%;
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+#contact_us h1{
+    text-align: center;
+    line-height: 10rem;
+    font-size: 55px;
+}
+.contact_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 3rem;
+}
+#contact_us::before{
+    content: "";
+    position:absolute;
+    background-image: url(https://media.istockphoto.com/id/1311934969/photo/contact-us.jpg?b=1&s=170667a&w=0&k=20&c=2sJEN1Hhg6heUi1ZxKs6pJDwcyLYXPc4pUGd3hEjOjE=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:99.83%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+#contact_us h1{
+    font-weight: bold;
+    font-size: 90px;
+}
+.form_head{
+    font-weight: bold;
+    font-size: 40px;
+}
+.submitbutton{
+    text-align: center;
+}
+.submitbutton #submit_btn{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: inherit;
+}
+.submitbutton #submit_btn:hover{
+   background-color: rgb(147, 204, 221);
+   color: rgb(22, 22, 22);
+   cursor: pointer;
+   font-weight: bold;
+}
+
+@media screen and (max-width:1447px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+    .content{
+        margin-top: -10px;
+    }
+    .servboxes{
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        margin: 0px 180px 0px 180px;
+    }
+    .servboxes .box{
+        margin: 0px -175px 25px -175px;
+    }
+    .servboxes p{
+        text-align: justify;
+    }
+    .ourclients{
+        height: 100rem;
+        background-color: grey;
+    }
+    .ourclients .client_logo_1, .client_logo_2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (max-width:870px){
+.navbar ul li a{
+    font-size: 15px;
+}
+.content p{
+    /* content-visibility: hidden; */
+    font-size: 15px;
+    line-height: 2rem;
+    margin-top: -54px;
+    padding: 72px 25px;
+    text-align: justify;
+}
+.content h1{
+    font-size: 50px;
+    margin: 13px;
+}
+.content h1 span{
+    font-family: system-ui;
+    color:rgb(156, 201, 238);
+}
+#contact_us h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+.form_head{
+        font-weight: bold;
+        font-size: 30px;
+}
+}
+@media screen and (max-width:280px){
+    .ourclients{
+        width: 365px;
+    }
+    .header{
+        width: 346px;
+    }
+    #contact_us{
+        background-color: grey;
+        width: 364px;
+        padding-bottom: 185px;
+    }
+    #contact_us form{
+        margin: 0px 45px;
+    }
+}
+
+
+
+
